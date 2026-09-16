@@ -1,0 +1,10 @@
+FUENTES DE CONSULTA
+
+Mozilla Developer Network (MDN). (2026). Semantic HTML.
+https://developer.mozilla.org/en-US/curriculum/core/semantic-html/
+
+Mozilla Developer Network (MDN). (2026). Structuring documents.
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
+
+Mozilla Developer Network (MDN). (2026). Forms and buttons in HTML.
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms

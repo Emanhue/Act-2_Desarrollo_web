@@ -1,0 +1,26 @@
+
+:root{--primary:#102a5c;--secondary:#6f2dbd;--accent:#1597d2;--soft:#f4f7fb;--text:#1d2939}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--soft);color:var(--text);line-height:1.65}
+.navbar{background:linear-gradient(135deg,#102a5c,#0b1d42)!important}
+.navbar-brand small{display:block;font-size:.68rem;color:#cbd8f3;line-height:1}
+.brand-mark{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--secondary),var(--accent));display:grid;place-items:center;font-weight:800;color:#fff}
+.navbar .nav-link{color:#fff!important;border-radius:8px;margin:2px}.navbar .nav-link:hover,.navbar .nav-link.active{background:rgba(255,255,255,.14)}
+.hero{background:linear-gradient(135deg,#fff,#edf4ff);border:1px solid #e4e7ec;border-radius:24px;box-shadow:0 12px 30px rgba(16,42,92,.10)}
+.avatar{max-width:290px;border-radius:28px;box-shadow:0 18px 35px rgba(16,42,92,.18)}
+.eyebrow{color:var(--secondary);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}
+h1,h2,h3{color:var(--primary)}
+.section-title{font-weight:800}
+.card{border:1px solid #e4e7ec;border-radius:18px;box-shadow:0 8px 22px rgba(16,42,92,.06);height:100%}
+.badge-soft{background:#eef4ff;color:var(--primary);padding:7px 11px;border-radius:999px;font-size:.86rem;font-weight:700;display:inline-block;margin:3px}
+.timeline{border-left:3px solid #c9d9f7;padding-left:22px}
+.timeline-item{position:relative;margin-bottom:25px}
+.timeline-item:before{content:"";position:absolute;left:-31px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:3px solid #e8f5fd}
+.table thead th{background:#eef4ff;color:var(--primary)}
+.form-control,.form-select{border-radius:10px;padding:.72rem .85rem}
+.form-control:focus,.form-select:focus{border-color:var(--accent);box-shadow:0 0 0 .2rem rgba(21,151,210,.12)}
+.invalid-feedback{font-weight:600}
+.notice{background:#fff8e7;border-left:4px solid #e6a700;padding:14px 16px;border-radius:8px;color:#684f00}
+.footer{background:#0b1d42;color:#dce6f8}
+.btn-primary{background:var(--primary);border-color:var(--primary)}.btn-primary:hover{background:#183d7a;border-color:#183d7a}
+.progress{height:10px;border-radius:20px}
+@media(max-width:767px){.hero{border-radius:18px}.avatar{max-width:220px}.display-4{font-size:2.35rem}}
